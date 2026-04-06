@@ -1,0 +1,309 @@
+.experience {
+    background: var(--bg-primary);
+}
+
+.exp-layout {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.exp-tabs {
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid var(--border);
+}
+
+.exp-tab {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 16px 20px;
+    text-align: left;
+    border-left: 2px solid transparent;
+    margin-left: -2px;
+    transition: all 0.3s ease;
+    background: transparent;
+}
+
+.exp-tab:hover {
+    background: rgba(100, 255, 218, 0.04);
+}
+
+.exp-tab.active {
+    border-left-color: var(--tab-color, var(--accent));
+    background: rgba(100, 255, 218, 0.05);
+}
+
+.tab-company {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+    transition: color 0.3s;
+}
+
+.exp-tab.active .tab-company {
+    color: var(--tab-color, var(--accent));
+}
+
+.tab-period {
+    font-size: 11px;
+    color: var(--text-muted);
+    letter-spacing: 0.5px;
+}
+
+.exp-content {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 36px;
+}
+
+.exp-header {
+    margin-bottom: 24px;
+}
+
+.exp-role {
+    font-family: var(--font-main);
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.exp-company-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.exp-meta {
+    font-size: 13px;
+    color: var(--text-muted);
+    letter-spacing: 0.5px;
+}
+
+.project-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+}
+
+.project-tab {
+    padding: 6px 14px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    transition: all 0.3s ease;
+    background: transparent;
+}
+
+.project-tab:hover,
+.project-tab.active {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(100, 255, 218, 0.06);
+}
+
+.project-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.project-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.project-period {
+    font-size: 12px;
+    color: var(--text-muted);
+    background: rgba(100, 255, 218, 0.06);
+    padding: 4px 10px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+}
+
+.exp-points {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.exp-points li {
+    display: flex;
+    gap: 12px;
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+.point-arrow {
+    color: var(--accent);
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.exp-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tech-tag {
+    padding: 4px 12px;
+    background: rgba(100, 255, 218, 0.06);
+    border: 1px solid rgba(100, 255, 218, 0.15);
+    border-radius: 4px;
+    font-size: 12px;
+    color: var(--accent);
+    font-family: var(--font-body);
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+    .exp-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .exp-tabs {
+        flex-direction: row;
+        border-left: none;
+        border-bottom: 2px solid var(--border);
+        overflow-x: auto;
+        padding-bottom: 0;
+    }
+
+    .exp-tab {
+        border-left: none;
+        border-bottom: 2px solid transparent;
+        margin-left: 0;
+        margin-bottom: -2px;
+        white-space: nowrap;
+    }
+
+    .exp-tab.active {
+        border-bottom-color: var(--tab-color, var(--accent));
+        border-left: none;
+    }
+
+    .exp-content {
+        padding: 24px;
+    }
+}
+
+/* Past Projects Portfolio */
+.past-projects {
+    margin-top: 60px;
+    border-top: 1px solid var(--border);
+    padding-top: 40px;
+}
+
+.past-projects-title {
+    font-size: 18px;
+    color: var(--text-primary);
+    margin-bottom: 24px;
+    font-family: var(--font-main);
+}
+
+.past-cats {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.past-cat-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 20px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--cat-color, var(--accent));
+    border-radius: 6px;
+    color: var(--text-primary);
+    font-size: 14px;
+    font-family: var(--font-main);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: left;
+}
+
+.past-cat-btn:hover,
+.past-cat-btn.open {
+    background: rgba(100, 255, 218, 0.04);
+    border-color: var(--cat-color, var(--accent));
+}
+
+.past-cat-count {
+    margin-left: auto;
+    font-size: 12px;
+    color: var(--text-secondary);
+    background: var(--bg-primary);
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.past-cat-arrow {
+    color: var(--text-secondary);
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+}
+
+.past-cat-btn.open .past-cat-arrow {
+    transform: rotate(180deg);
+}
+
+.past-items {
+    list-style: none;
+    padding: 12px 20px 16px 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 6px 6px;
+}
+
+.past-item {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.past-item-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--accent);
+    font-size: 13px;
+    transition: opacity 0.2s;
+}
+
+.past-item-link:hover {
+    opacity: 0.75;
+    text-decoration: underline;
+}
+
+.past-item-note {
+    font-size: 11px;
+    color: var(--text-secondary);
+    background: rgba(255, 255, 255, 0.04);
+    padding: 2px 8px;
+    border-radius: 4px;
+}

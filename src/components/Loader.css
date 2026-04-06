@@ -1,0 +1,105 @@
+.loader {
+    position: fixed;
+    inset: 0;
+    background: var(--bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.loader-grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(100, 255, 218, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(100, 255, 218, 0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+    animation: gridPulse 2s ease-in-out infinite;
+}
+
+@keyframes gridPulse {
+
+    0%,
+    100% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.loader-inner {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.loader-logo {
+    font-family: var(--font-main);
+    font-size: 64px;
+    font-weight: 800;
+    color: var(--accent);
+    letter-spacing: -2px;
+    animation: logoPulse 1.5s ease-in-out infinite;
+    text-shadow: 0 0 40px rgba(100, 255, 218, 0.5);
+}
+
+@keyframes logoPulse {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.7;
+        transform: scale(0.97);
+    }
+}
+
+.loader-bar {
+    width: 200px;
+    height: 2px;
+    background: rgba(100, 255, 218, 0.15);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.loader-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 2px;
+    animation: fillBar 2.5s ease-out forwards;
+    box-shadow: 0 0 10px var(--accent);
+}
+
+@keyframes fillBar {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.loader-count {
+    font-family: var(--font-main);
+    font-size: 14px;
+    color: var(--accent);
+    letter-spacing: 2px;
+}
+
+.loader-text {
+    font-size: 12px;
+    color: var(--text-muted);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
