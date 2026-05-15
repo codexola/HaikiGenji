@@ -105,15 +105,27 @@ export default function Hero() {
 
     return (
         <section className="hero" id="home">
-            {/* Mt. Fuji banner */}
-            <div className="hero-fuji">
-                <img
-                    src="/Fuji.jpg"
-                    alt="富士山 — Mount Fuji"
-                    className="fuji-img"
-                />
-                <div className="fuji-overlay" />
-                <span className="fuji-caption">富士山 — Mount Fuji</span>
+            {/* Avatar Banner with Cat Developer */}
+            <div className="hero-avatar-banner">
+                <div className="avatar-banner-content">
+                    <div className="avatar-section">
+                        <img
+                            src="https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=400&h=400&fit=crop"
+                            alt="Developer Cat Avatar"
+                            className="avatar-cat"
+                        />
+                        <span className="avatar-label">Code is my superpower 💻</span>
+                    </div>
+                    <div className="banner-divider" />
+                    <div className="tech-section">
+                        <img
+                            src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=300&fit=crop"
+                            alt="Programming Languages"
+                            className="tech-banner"
+                        />
+                        <span className="tech-label">技術で未来を創る — Creating Future with Technology</span>
+                    </div>
+                </div>
             </div>
 
             <div className="hero-canvas">
