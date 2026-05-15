@@ -212,7 +212,7 @@ This portfolio is personal work. All rights reserved.
 
 **Ryuko Tokunaga**
 - Email: ryuko.tokunaga@example.com
-- GitHub: [@ryuko-tokunaga](https://github.com/ryuko-tokunaga)
+- GitHub: [@ryuko-tokunaga](https://github.com/crystal70916)
 - Portfolio: [ryuko-tokunaga.vercel.app](https://ryuko-tokunaga.vercel.app)
 
 ## 🤝 Support
