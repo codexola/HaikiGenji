@@ -12,7 +12,7 @@ export default function Footer() {
                         <span className="logo-bracket">&lt;</span>RT<span className="logo-bracket">/&gt;</span>
                     </div>
                     <p className="footer-text">
-                        {t.footer.built[lang]} <span className="accent">Ryuko Tokunaga</span>
+                        {t.footer.built[lang]} <span className="accent">徳永琉孝</span>
                     </p>
                     <div className="footer-links">
                         <a href="https://github.com/codexola" target="_blank" rel="noopener noreferrer">GitHub</a>
