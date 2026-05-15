@@ -26,29 +26,29 @@ export const t = {
     hero: {
         greeting: { en: 'Hi, my name is', ja: 'はじめまして、' },
         desc: {
-            en: 'Full-stack engineer with 7+ years of experience building high-performance mobile and web applications. Specialized in Java, C#, React Native, and modern cloud architectures — from concept to production.',
-            ja: 'モバイル・Webアプリ開発に7年以上の経験を持つフルスタックエンジニア。Java・C#・React Nativeおよびクラウドアーキテクチャを専門とし、企画から本番リリースまで一貫して対応。',
+            en: 'Senior Full-Stack Engineer with 8+ years of experience in AI systems, Web development, and Cloud architecture. Specialized in Python, FastAPI, AWS, and AI/LLM technologies — from PoC to production deployment.',
+            ja: 'AI・Web・クラウド開発に8年以上の経験を持つシニアエンジニア。Python・FastAPI・AWS・生成AI技術を専門とし、PoC から本番導入まで一貫して対応。',
         },
         viewWork: { en: 'View My Work', ja: '実績を見る' },
         getInTouch: { en: 'Get In Touch', ja: 'お問い合わせ' },
         roles: {
-            en: ['Mobile Engineer', 'Full-Stack Developer', 'React Native Expert', 'Java / C# Specialist', 'UI/UX Craftsman'],
-            ja: ['モバイルエンジニア', 'フルスタック開発者', 'React Native エキスパート', 'Java / C# スペシャリスト', 'UI/UX クラフトマン'],
+            en: ['AI Engineer', 'Full-Stack Developer', 'Backend Specialist', 'Cloud Architect', 'Tech Lead'],
+            ja: ['AI エンジニア', 'フルスタック開発者', 'バックエンド スペシャリスト', 'クラウド アーキテクト', 'テックリード'],
         },
     },
     about: {
         title: { en: 'About Me', ja: '自己紹介' },
         p1: {
-            en: "I'm a full-stack engineer with over 7 years of experience building mobile and web applications from the ground up. My journey spans from requirement definition through design, development, and deployment — with a strong focus on code quality and long-term maintainability.",
-            ja: '要件定義からデザイン・開発・デプロイまで一貫して担当するフルスタックエンジニアです。コード品質と長期的な保守性を重視し、7年以上の実務経験を持ちます。',
+            en: "I'm a senior full-stack engineer with 8+ years of experience building AI systems, web applications, and cloud infrastructure. My journey spans from requirement definition through design, development, and production deployment — with a strong focus on business value and operational excellence.",
+            ja: 'AI・Web・クラウド開発に8年以上の経験を持つシニアエンジニアです。要件定義からデザイン・開発・本番運用まで一貫して担当し、ビジネス価値と運用品質を重視します。',
         },
         p2: {
-            en: 'My core expertise lies in Java and C# backend development, paired with React Native for cross-platform mobile apps. I\'ve shipped products used by thousands of users across fitness, healthcare, e-commerce, and fintech domains.',
-            ja: 'バックエンドはJava・C#を中心に、React Nativeによるクロスプラットフォームアプリ開発が得意です。フィットネス・医療・EC・フィンテック分野で多数のプロダクトをリリースしてきました。',
+            en: 'My core expertise lies in Python/FastAPI backend development, AI/LLM integration (OpenAI, Claude, Dify), and AWS cloud architecture. I\'ve led AI projects that achieved 60% reduction in inquiry workload and shipped products across healthcare, fintech, and business automation domains.',
+            ja: 'Python・FastAPI によるバックエンド開発、OpenAI・Claude・Dify を活用した AI/LLM 統合、AWS クラウドアーキテクチャが得意です。問い合わせ工数 60% 削減を実現した AI プロジェクトをリードし、医療・フィンテック・業務自動化分野で多数のプロダクトをリリースしてきました。',
         },
         p3: {
-            en: 'I thrive in agile environments, love clean architecture, and care deeply about the user experience. Whether it\'s optimizing API response times to under 100ms or crafting smooth mobile animations — I bring the same level of precision to every layer of the stack.',
-            ja: 'アジャイル環境でのチーム開発が得意で、クリーンアーキテクチャとUXにこだわります。APIレスポンスの100ms以下最適化からスムーズなモバイルアニメーションまで、スタック全体に同じ精度で取り組みます。',
+            en: 'I thrive in agile environments, excel at translating business challenges into technical solutions, and care deeply about code quality and team collaboration. Whether it\'s designing RAG systems, optimizing database queries, or mentoring junior engineers — I bring the same level of precision to every aspect of development.',
+            ja: 'アジャイル環境でのチーム開発が得意で、ビジネス課題を技術で解決することにこだわります。RAG システム設計、DB 最適化、後進エンジニアのメンタリングまで、開発のあらゆる側面に同じ精度で取り組みます。',
         },
         years: { en: 'Years Experience', ja: '年の経験' },
         projects: { en: 'Projects Shipped', ja: 'リリース実績' },

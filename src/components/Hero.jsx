@@ -134,7 +134,7 @@ export default function Hero() {
             <div className="hero-content container">
                 <div className="hero-text">
                     <p className="hero-greeting">{t.hero.greeting[lang]}</p>
-                    <h1 className="hero-name">Hakimi Genji.</h1>
+                    <h1 className="hero-name">Ryuko Tokunaga.</h1>
                     <h2 className="hero-role">
                         <span className="typed">{displayed}</span>
                         <span className="cursor-blink">|</span>

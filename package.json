@@ -1,6 +1,7 @@
 {
-  "name": "hakimi-portfolio",
+  "name": "ryuko-tokunaga-portfolio",
   "version": "1.0.0",
+  "description": "Senior AI Engineer & Full-Stack Developer Portfolio - Ryuko Tokunaga",
   "private": true,
   "type": "module",
   "scripts": {

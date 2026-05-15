@@ -25,7 +25,7 @@ export default function Navbar() {
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <div className="nav-inner">
                 <a href="#" className="nav-logo">
-                    <span className="logo-bracket">&lt;</span>HG<span className="logo-bracket">/&gt;</span>
+                    <span className="logo-bracket">&lt;</span>RT<span className="logo-bracket">/&gt;</span>
                 </a>
 
                 <ul className="nav-links">
@@ -37,7 +37,7 @@ export default function Navbar() {
                         </li>
                     ))}
                     <li>
-                        <a href="/Hakimi Genji.pdf" target="_blank" rel="noopener noreferrer" className="nav-resume">
+                        <a href="/職務経歴書_徳永琉孝.pdf" target="_blank" rel="noopener noreferrer" className="nav-resume">
                             {t.nav.resume[lang]}
                         </a>
                     </li>
@@ -72,7 +72,7 @@ export default function Navbar() {
                         </li>
                     ))}
                     <li>
-                        <a href="/Hakimi Genji.pdf" target="_blank" rel="noopener noreferrer" className="nav-resume">
+                        <a href="/職務経歴書_徳永琉孝.pdf" target="_blank" rel="noopener noreferrer" className="nav-resume">
                             {t.nav.resume[lang]}
                         </a>
                     </li>

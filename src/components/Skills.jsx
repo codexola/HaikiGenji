@@ -6,14 +6,14 @@ import './Skills.css'
 
 const skillGroups = [
     {
-        category: 'Mobile',
+        category: 'AI / LLM',
         color: '#64ffda',
-        icon: '📱',
+        icon: '🤖',
         skills: [
-            { name: 'React Native', level: 95 },
-            { name: 'Flutter', level: 75 },
-            { name: 'iOS (Swift)', level: 65 },
-            { name: 'Android (Kotlin)', level: 65 },
+            { name: 'OpenAI API', level: 95 },
+            { name: 'Claude API', level: 92 },
+            { name: 'Dify', level: 90 },
+            { name: 'LangChain / RAG', level: 88 },
         ],
     },
     {
@@ -21,10 +21,10 @@ const skillGroups = [
         color: '#7b5ea7',
         icon: '⚙️',
         skills: [
-            { name: 'Java / Spring Boot', level: 95 },
-            { name: 'C# / .NET Core', level: 92 },
-            { name: 'Node.js', level: 75 },
-            { name: 'GraphQL', level: 80 },
+            { name: 'Python / FastAPI', level: 95 },
+            { name: 'Java / Spring Boot', level: 92 },
+            { name: 'C# / .NET Core', level: 88 },
+            { name: 'TypeScript / Node.js', level: 85 },
         ],
     },
     {
@@ -32,10 +32,10 @@ const skillGroups = [
         color: '#ff6b6b',
         icon: '🖥️',
         skills: [
-            { name: 'React / Next.js', level: 90 },
+            { name: 'React / Next.js', level: 88 },
+            { name: 'React Native', level: 85 },
             { name: 'TypeScript', level: 92 },
-            { name: 'Three.js / WebGL', level: 70 },
-            { name: 'CSS / Tailwind', level: 85 },
+            { name: 'Three.js / WebGL', level: 75 },
         ],
     },
     {
@@ -43,32 +43,32 @@ const skillGroups = [
         color: '#ffd54f',
         icon: '🗄️',
         skills: [
-            { name: 'PostgreSQL', level: 88 },
-            { name: 'MySQL / Oracle', level: 85 },
-            { name: 'SQL Server', level: 85 },
-            { name: 'MongoDB', level: 75 },
+            { name: 'PostgreSQL', level: 92 },
+            { name: 'MySQL / SQL Server', level: 88 },
+            { name: 'Redis', level: 85 },
+            { name: 'MongoDB', level: 80 },
         ],
     },
     {
-        category: 'DevOps / Cloud',
+        category: 'Cloud / DevOps',
         color: '#4fc3f7',
         icon: '☁️',
         skills: [
-            { name: 'Docker / Kubernetes', level: 82 },
-            { name: 'AWS (S3, EC2)', level: 78 },
-            { name: 'CI/CD (Jenkins)', level: 80 },
-            { name: 'GCP', level: 70 },
+            { name: 'AWS (ECS, RDS, S3, Lambda)', level: 90 },
+            { name: 'Docker / Kubernetes', level: 88 },
+            { name: 'CI/CD (GitHub Actions, Jenkins)', level: 85 },
+            { name: 'GCP', level: 75 },
         ],
     },
     {
-        category: 'Tools',
+        category: 'Tools & Practices',
         color: '#a5d6a7',
         icon: '🛠️',
         skills: [
             { name: 'Git / GitHub', level: 95 },
-            { name: 'Jira / Redmine', level: 90 },
-            { name: 'Figma', level: 80 },
-            { name: 'Azure DevOps', level: 78 },
+            { name: 'Jira / Agile', level: 92 },
+            { name: 'API Design / REST', level: 90 },
+            { name: 'Figma / Design', level: 80 },
         ],
     },
 ]
@@ -183,8 +183,9 @@ export default function Skills() {
                 <div className="skills-extra reveal">
                     <h3 className="extra-title">Also experienced with</h3>
                     <div className="extra-tags">
-                        {['Agile / Scrum', 'Waterfall', 'OpenAPI', 'JWT', 'OAuth2', 'Stripe', 'MetaMask', 'Ethers.js',
-                            'Entity Framework', 'Hibernate', 'REST API', 'WebSocket', 'Redis', 'Nginx', 'Linux'].map(tag => (
+                        {['Prompt Engineering', 'RAG Systems', 'Microservices', 'GraphQL', 'REST API', 'JWT / OAuth2', 
+                            'Stripe', 'RabbitMQ', 'Kafka', 'Entity Framework', 'Hibernate', 'WebSocket', 'Redis', 'Nginx', 'Linux',
+                            'Agile / Scrum', 'PM / PL', 'Team Leadership', 'Customer Engagement'].map(tag => (
                                 <span key={tag} className="extra-tag">{tag}</span>
                             ))}
                     </div>
