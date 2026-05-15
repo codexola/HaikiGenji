@@ -111,7 +111,7 @@ export default function Contact() {
                                     </div>
                                 </a>
 
-                                <a href="https://chatwork.com/genji19980917" target="_blank" rel="noopener noreferrer" className="contact-link">
+                                <a href="https://www.chatwork.com/appledev" target="_blank" rel="noopener noreferrer" className="contact-link">
                                     <div className="contact-link-icon">
                                         <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
                                             <path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.37 5.07L2 22l4.93-1.37A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm1 15H7v-2h6v2zm2-4H7v-2h8v2zm0-4H7V7h8v2z" />
@@ -119,7 +119,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <span className="link-label">CHATWORK</span>
-                                        <span className="link-value">genji19980917</span>
+                                        <span className="link-value">appledev</span>
                                     </div>
                                 </a>
 
