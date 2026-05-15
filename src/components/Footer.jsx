@@ -15,7 +15,7 @@ export default function Footer() {
                         {t.footer.built[lang]} <span className="accent">Ryuko Tokunaga</span>
                     </p>
                     <div className="footer-links">
-                        <a href="https://github.com/ryuko-tokunaga" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://github.com/codexola" target="_blank" rel="noopener noreferrer">GitHub</a>
                         <a href="https://t.me/smose0917" target="_blank" rel="noopener noreferrer">Telegram</a>
                         <a href="mailto:hiroki.kodan2025@gmail.com
 ">Email</a>
